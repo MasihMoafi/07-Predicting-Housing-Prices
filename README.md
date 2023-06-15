@@ -1,6 +1,6 @@
 # Predicting House Prices with XGBoost Regression
 
-This project focuses on predicting house prices using XGBoost regression. Although the project may seem simple, it involves handling skewed datasets and applying log transformations to certain fields to improve the model's performance.
+This project focuses on predicting house prices using XGBoost regression. Although the project may seem simple, it involves handling skewed datasets, missing data, etc and applying log transformations to certain fields to improve the model's performance.
 
 ## Data Preparation
 
