@@ -18,14 +18,6 @@ An XGBoost regression model is initialized with regularization parameters and tr
 
 A plot of the RMSE over the number of trees (iterations) is generated to visualize the model's learning progress.
 
-## Making Predictions on the Test Set
-
-The test data is prepared by selecting the same numerical columns as the training data. The trained model is then used to make predictions on the test set. Since the sale prices were transformed with a logarithmic function during training, the predictions are transformed back to the original scale using the inverse of the logarithmic function.
-
-## Submission
-
-A submission dataframe is created, containing the 'Id' from the test data and the predicted sale prices. This dataframe is saved as a CSV file named 'submission2.csv' for submission to the competition.
-
 ---
 
 This project demonstrates the use of XGBoost regression for predicting house prices. By applying log transformations to handle skewed data and training an XGBoost model with appropriate parameters, accurate predictions can be made.
